@@ -3,7 +3,7 @@ Simple Home Assistant component to check DNS resolution as a binary sensor. I us
 
 ## Installation
 1. Copy the `dnsresolve` folder to the `custom_components` folder in your Home Assistant configuration directory.
-2. Add the following code in your `configuration.yaml` file:
+2. Add the following code in your `configuration.yaml` file under `binary_sensor:`:
 ```
   - platform: dnsresolve
     name: My DNS
@@ -19,5 +19,5 @@ Simple Home Assistant component to check DNS resolution as a binary sensor. I us
 | hostname         | false    | string  | The hostname to check. Defaults to `myip.opendns.org` |
 | resolver         | false    | string  | DNS server you are checking. Defaults to `208.67.222.222` |
 
-The defaults are much use except to make sure the component is working.  I set the hostname to one of my internal names, and the resolver to my DNS server that I want to check.  If the sensor returns false, that means that more than likely DNS is not working.
+The defaults aren't much use except to make sure the component is working.  I set the hostname to one of my internal names, and the resolver to my DNS server that I want to check.  If the sensor returns false, that means that more than likely DNS is not working.
 
