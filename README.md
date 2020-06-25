@@ -1,5 +1,5 @@
 # dnsresolve
-Simple Home Assistant component to check DNS resolution as a binary sensor. I use this to make sure my DNS servers and Pi-Hole servers are all working.
+Simple Home Assistant component to check DNS resolution as a binary sensor. I use this to make sure my DNS servers and Pi-Hole servers are all working. MOst of this is taken right out of Home Assistant Core, mostly the dnsip component switched up to return a binary sensor.
 
 ## Installation
 1. Copy the `dnsresolve` folder to the `custom_components` folder in your Home Assistant configuration directory.
