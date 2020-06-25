@@ -1,7 +1,7 @@
 {
   "domain": "dnsresolve",
   "name": "DNS Resolve",
-  "documentation": "https://www.home-assistant.io/integrations/dnsip",
+  "documentation": https://github.com/dennyreiter/dnsresolve,
   "requirements": ["aiodns==2.0.0"],
   "codeowners": []
 }
