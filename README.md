@@ -14,7 +14,7 @@ Simple Home Assistant component to check DNS resolution as a binary sensor. I us
 ## Configuration
 | key              | required | type    | usage
 |------------------|----------|---------|-----------------------------------------------------------------------------------|
-| platform         | true     | string  | 'dnsresolve'                              |
+| platform         | true     | string  | `dnsresolve`                              |
 | name             | false    | string  | The name of your sensor. Defaults to `mydns`
 | hostname         | false    | string  | The hostname to check. Defaults to `myip.opendns.org` |
 | resolver         | false    | string  | DNS server you are checking. Defaults to `208.67.222.222` |
